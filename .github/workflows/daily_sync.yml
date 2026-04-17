@@ -1,7 +1,7 @@
 name: Sincronizacion Diaria BCV
 on:
   schedule:
-    - cron: '25 13 * * *'
+    - cron: '30 13 * * *'
   workflow_dispatch:
 
 jobs:
