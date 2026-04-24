@@ -10,7 +10,7 @@ async function ejecutarSincronizacionTotal() {
         hasuraSecret: process.env.HASURA_SECRET,
         shopifyDomain: "kmdadn-qr.myshopify.com",
         shopifyToken: process.env.SHOPIFY_TOKEN,
-        markup: 1.00 // +30%
+        markup: 1.00 + 30 %
     };
 
     try {
